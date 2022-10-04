@@ -1,1 +1,63 @@
 @charset "UTF-8";
+
+body{
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    color: #1E1E1E;
+}
+
+.inner{
+    width: 86.48%;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.top{
+    background: url(./images/bg_main.png) no-repeat center center;
+    color: #1E1E1E;
+    padding: 240px 0 80px;
+}
+
+.toptext{
+    background-color: #fff;
+    padding: 40px;
+    width: 62%;
+}
+
+h2{
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.toptext p{
+    font-size: 18px;
+}
+
+.discussion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.discussion ul li{
+    margin-right: 1px;
+    padding: 5px 0;
+}
+
+.discussion a{
+    text-decoration: none;
+    color: #1E1E1E;
+    background-color: #F5F5F5;
+    padding: 5px 14px;
+}

@@ -24,7 +24,9 @@ h1{
 
 .top{
     background: url(./images/bg_main.png) no-repeat center center;
+    background-size:cover;
     color: #1E1E1E;
+    margin-bottom: 100px;
     padding: 240px 0 80px;
 }
 
@@ -41,6 +43,14 @@ h2{
 
 .toptext p{
     font-size: 18px;
+}
+
+.subtitle{
+    background-color: #72C9F3;
+    padding: 8px 15px;
+    width: 36%;
+    color: #fff;
+    margin: 0 auto;
 }
 
 .discussion ul{
@@ -60,4 +70,10 @@ h2{
     color: #1E1E1E;
     background-color: #F5F5F5;
     padding: 5px 14px;
+}
+
+footer{
+    background-color: #1E1E1E;
+    color: #fff;
+    padding: 100px 0;
 }
